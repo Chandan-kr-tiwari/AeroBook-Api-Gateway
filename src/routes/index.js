@@ -6,7 +6,7 @@ const {
    AEROBOOK_FLIGHT_SERVICE,
    AEROBOOK_BOOKING_SERVICE,
    AEROBOOK_PAYMENT_SERVICE,
-} = require("../config");
+} = require("../config/server-config");
 
 const router = express.Router();
 
